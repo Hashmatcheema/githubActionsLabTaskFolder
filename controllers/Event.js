@@ -11,6 +11,12 @@ function isValidEvent(event) {
     return { valid: false, message: "Invalid date format" };
   }
    
+   
+  if (eventDate < now) {
+    return { valid: false, message: "Event date cannot be in the past" };
+  }
+
+
 
   return { valid: true, message: "Event is valid" };
 }
