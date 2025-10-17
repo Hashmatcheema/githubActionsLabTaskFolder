@@ -18,7 +18,6 @@ jobs:
       - name: Install dependencies for Task2
         run: |
           cd Task2
-          npm install
 
       - name: Run Temperature Converter tests
         run: |
