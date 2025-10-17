@@ -1,4 +1,4 @@
-name: CI - Node.js Application Tests
+name: CI - Temperature Converter App Tests
 
 on: [push, pull_request]
 
@@ -15,8 +15,12 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies for Task2
+        run: |
+          cd Task2
+          npm install
 
-      - name: Run tests
-        run: npm test
+      - name: Run Temperature Converter tests
+        run: |
+          cd Task2
+          npm test

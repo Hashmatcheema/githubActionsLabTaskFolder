@@ -1,0 +1,23 @@
+{
+  "name": "temperature-converter-app",
+  "version": "1.0.0",
+  "description": "A simple Temperature Converter App that converts between Celsius and Fahrenheit with automated testing",
+  "main": "converter.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node converter.js"
+  },
+  "keywords": [
+    "temperature",
+    "converter",
+    "celsius",
+    "fahrenheit",
+    "nodejs",
+    "testing"
+  ],
+  "author": "Development Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
